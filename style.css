@@ -1,0 +1,66 @@
+html,
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+#app {
+  display: flex;
+  width: 100%;
+}
+.picture {
+  width: 100vh;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.picture > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question {
+  height: 50%;
+  font-size: 10vh;
+}
+.username {
+  height: 10%;
+  opacity: 0.2;
+  font-size: 5vh;
+}
+.answer {
+  height: 40%;
+  font-size: 10vh;
+}
+
+#app > .nav {
+  flex-grow: 1;
+  padding: 0.5em;
+}
+
+#app > .nav > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+}
+
+textarea {
+  margin-bottom: 0.5em;
+}
+
+#app > .nav > nav {
+  display: flex;
+  margin-bottom: 1em;
+}
+nav > span {
+  flex-grow: 1;
+  padding: 0 0.5em;
+}
